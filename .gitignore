@@ -1,0 +1,15 @@
+# Python environment
+.venv/
+__pycache__/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+
+# Raw data (do not redistribute)
+data/raw/*.xml
+
+# Processed outputs (reproducible via pipeline)
+data/processed/
